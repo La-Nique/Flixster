@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		71FB4F9C25CFF7FA0014EB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4F9B25CFF7FA0014EB5A /* AppDelegate.swift */; };
 		71FB4F9E25CFF7FA0014EB5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4F9D25CFF7FA0014EB5A /* SceneDelegate.swift */; };
-		71FB4FA025CFF7FA0014EB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4F9F25CFF7FA0014EB5A /* ViewController.swift */; };
 		71FB4FA325CFF7FA0014EB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FB4FA125CFF7FA0014EB5A /* Main.storyboard */; };
 		71FB4FA525CFF7FD0014EB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FB4FA425CFF7FD0014EB5A /* Assets.xcassets */; };
 		71FB4FA825CFF7FD0014EB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FB4FA625CFF7FD0014EB5A /* LaunchScreen.storyboard */; };
 		71FB4FB325CFF7FE0014EB5A /* FlixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4FB225CFF7FE0014EB5A /* FlixsterTests.swift */; };
 		71FB4FBE25CFF7FE0014EB5A /* FlixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4FBD25CFF7FE0014EB5A /* FlixsterUITests.swift */; };
+		71FB4FD225CFFE550014EB5A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB4FD125CFFE550014EB5A /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		71FB4F9825CFF7FA0014EB5A /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FB4F9B25CFF7FA0014EB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71FB4F9D25CFF7FA0014EB5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71FB4F9F25CFF7FA0014EB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71FB4FA225CFF7FA0014EB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71FB4FA425CFF7FD0014EB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FB4FA725CFF7FD0014EB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		71FB4FB925CFF7FE0014EB5A /* FlixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FB4FBD25CFF7FE0014EB5A /* FlixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixsterUITests.swift; sourceTree = "<group>"; };
 		71FB4FBF25CFF7FE0014EB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FB4FD125CFFE550014EB5A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				71FB4F9B25CFF7FA0014EB5A /* AppDelegate.swift */,
 				71FB4F9D25CFF7FA0014EB5A /* SceneDelegate.swift */,
-				71FB4F9F25CFF7FA0014EB5A /* ViewController.swift */,
+				71FB4FD125CFFE550014EB5A /* MoviesViewController.swift */,
 				71FB4FA125CFF7FA0014EB5A /* Main.storyboard */,
 				71FB4FA425CFF7FD0014EB5A /* Assets.xcassets */,
 				71FB4FA625CFF7FD0014EB5A /* LaunchScreen.storyboard */,
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FB4FA025CFF7FA0014EB5A /* ViewController.swift in Sources */,
 				71FB4F9C25CFF7FA0014EB5A /* AppDelegate.swift in Sources */,
 				71FB4F9E25CFF7FA0014EB5A /* SceneDelegate.swift in Sources */,
+				71FB4FD225CFFE550014EB5A /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
