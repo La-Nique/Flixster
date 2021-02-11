@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
@@ -13,8 +14,10 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     var movies = [[String:Any]]() // created a var of an array of array
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        tableView.isScrollEnabled = true // forces scroll
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -51,17 +54,27 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        // let cell = UITableViewCell() // <--- this is a stock cell that no one ever uses and we are going to create our own !!!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell // so that it doesn't automatically flood with thousands of movies
         
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String // example of casting "hey, this (title) is a string, so i would like this to be a string"
+        let synopsis = movie["overview"] as! String // we are pulling the API movie synopsis as a string and storing it into cell.synopsisLabel?.text = synopsis (below)
         
-        cell.textLabel?.text = title
+        //cell.textLabel!.text = title // no longer needed
+        cell.titleLabel!.text = title
+        cell.synopsisLabel!.text = synopsis
+        
+        let baseUrl = "https://image.tmdb.org/t/p/w185"
+        let posterPath = movie["poster_path"] as! String
+        let posterUrl = URL(string: baseUrl + posterPath)
+        
+        cell.posterView.af.setImage(withURL: posterUrl!)
         
         return cell
     }
     // TODO: Get the array of movies
     // TODO: Store the movies in a property to use elsewhere
     // TODO: Reload your table view data
-    
+    // ALL TASKS COMPLETE^
 }
