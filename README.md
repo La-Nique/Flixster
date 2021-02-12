@@ -21,8 +21,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src= "https://media.giphy.com/media/AZcdn9IrXJkpt8glHQ/giphy.gif" width='250'><br>
-
+<img src= "https://media.giphy.com/media/eMlhMQXe4kKxLhW0Lf/giphy.gif" width='500'><br>
 
 ### Notes
 I successfully completed all tasks for Part 1 as well as attempted both bonus tasks but encountered a bit of a learning curve. I ran into a few difficulties during this project. The first challenge I faced was when I pulled from Github and my entire code whipped out and I was able to find knowledge to get my code back. The second challenge I had was when installed CocoaPod, eventually found out I had to use brew and manipulate some paths. The other challenges I had were in the bonus tasks.
