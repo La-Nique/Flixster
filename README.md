@@ -27,13 +27,17 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 I successfully completed all tasks for Part 1 as well as all bonus tasks. The fun part was the few difficulties I've encountered while programming this part of the project. 
 <br>
-<br>
+<br><br>
 One of the challenges I faced was when I pulled from Github on Xcode and my entire code was whipped out, but I was able to figure out how to restore my code. Another challenge I faced was when I attempted to install CocoaPod, eventually found out I had to use brew and manipulate some paths to successfully install the Dependency Manager. And the other challenges I encountered were in the bonus tasks...
-<br>
+<br><br>
 Constrains were SO tricky. Understanding where the bounds are and how to manipulate was a bit confusing, but I was able to bound all my objects and keep them from continuing off the screen for multiple devices! The effort was totally worth it, the outcome of my work looks really clean. My curiosity in what more I can do with Swift really paid off in the final product.
-<br>
-I was also able to run the app on my personal iPhone 11 Pro device, had to add my Apple account and authorize a developer team. I really love how I'm able to have my own applications on my personal phone !
+<br><br>
+I was also able to run the app on my personal iPhone 11 Pro device, had to add my Apple account and authorize a developer team. I really love how I'm able to have my own applications on my personal phone !<br>
 
-### Personal Home Screen Screenshot
+#### Various Device Sizes And Orientations:
 
-<img src= "https://i.imgur.com/qjgTfOI.jpg" width='300'><br>
+<img src= "https://media.giphy.com/media/wla8KDzcU1K5KDKT70/giphy.gif" width='800'><br>
+
+#### Flixster On Personal Device:
+
+<img src= "https://media.giphy.com/media/Gxlq9Zo0QcLC6Zkiw4/giphy.gif" width='300'><br>
