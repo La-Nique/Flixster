@@ -24,8 +24,16 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src= "https://media.giphy.com/media/eMlhMQXe4kKxLhW0Lf/giphy.gif" width='400'><br>
 
 ### Notes
-I successfully completed all tasks for Part 1 as well as attempted both bonus tasks but encountered a bit of a learning curve. I ran into a few difficulties during this project. The first challenge I faced was when I pulled from Github and my entire code whipped out and I was able to find knowledge to get my code back. The second challenge I had was when installed CocoaPod, eventually found out I had to use brew and manipulate some paths. The other challenges I had were in the bonus tasks.
+
+I successfully completed all tasks for Part 1 as well as all bonus tasks. The fun part was the few difficulties I've encountered while programming this part of the project. 
 <br>
-The constrains were SO tricky. Grouped vertically then horizontally and automatic constrained the table view so that the entire area would fit. Understanding where the bounds are and how to manipulate and constrain was a bit confusing, but I was able to bound all my objects and keep them from continuing off the screen! The effort was totally worth it, I was curious in what more I can do with Swift.
 <br>
-I was able to run the app on my personal iPhone 11 Pro device, had to add my Apple account and authorize a developer team. I love how I'm able to have my own applications on my personal phone !!
+One of the challenges I faced was when I pulled from Github on Xcode and my entire code was whipped out, but I was able to figure out how to restore my code. Another challenge I faced was when I attempted to install CocoaPod, eventually found out I had to use brew and manipulate some paths to successfully install the Dependency Manager. And the other challenges I encountered were in the bonus tasks...
+<br>
+Constrains were SO tricky. Understanding where the bounds are and how to manipulate was a bit confusing, but I was able to bound all my objects and keep them from continuing off the screen for multiple devices! The effort was totally worth it, the outcome of my work looks really clean. My curiosity in what more I can do with Swift really paid off in the final product.
+<br>
+I was also able to run the app on my personal iPhone 11 Pro device, had to add my Apple account and authorize a developer team. I really love how I'm able to have my own applications on my personal phone !
+
+### Personal Home Screen Screenshot
+
+<img src= "https://i.imgur.com/qjgTfOI.jpg" width='300'><br>
