@@ -23,6 +23,14 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 <img src= "https://media.giphy.com/media/eMlhMQXe4kKxLhW0Lf/giphy.gif" width='400'><br>
 
+#### BONUS: Various Device Sizes And Orientations:
+
+<img src= "https://media.giphy.com/media/wla8KDzcU1K5KDKT70/giphy.gif" width='800'><br>
+
+#### BONUS: Flixster On Personal Device:
+
+<img src= "https://media0.giphy.com/media/3qP2qOacnFPwrSKkXp/giphy.gif" width='300'><br>
+
 ### Notes
 
 I successfully completed all tasks for Part 1 as well as all bonus tasks. The fun part was the few difficulties I've encountered while programming this part of the project. 
@@ -34,14 +42,6 @@ Constrains were SO tricky. Understanding where the bounds are and how to manipul
 <br><br>
 I was also able to run the app on my personal iPhone 11 Pro device, had to add my Apple account and authorize a developer team. I really love how I'm able to have my own applications on my personal phone !<br>
 
-#### Various Device Sizes And Orientations:
-
-<img src= "https://media.giphy.com/media/wla8KDzcU1K5KDKT70/giphy.gif" width='800'><br>
-
-#### Flixster On Personal Device:
-
-<img src= "https://media0.giphy.com/media/3qP2qOacnFPwrSKkXp/giphy.gif" width='300'><br>
-
 <br>
 
-All gif timelapses have been sped up.
+*All gif timelapses have been sped up.*
