@@ -40,4 +40,8 @@ I was also able to run the app on my personal iPhone 11 Pro device, had to add m
 
 #### Flixster On Personal Device:
 
-<img src= "https://media.giphy.com/media/Gxlq9Zo0QcLC6Zkiw4/giphy.gif" width='300'><br>
+<img src= "https://media0.giphy.com/media/3qP2qOacnFPwrSKkXp/giphy.gif" width='300'><br>
+
+<br>
+
+All gif timelapses have been sped up.
