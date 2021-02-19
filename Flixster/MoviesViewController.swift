@@ -12,7 +12,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     
-    var movies = [[String:Any]]() // created a var of an array of array
+    var movies = [[String:Any]]() // created a var of an array of array. this is a dictionary
     
     override func viewDidLoad()
     {
@@ -21,9 +21,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.dataSource = self
         tableView.delegate = self
-        
-        // Do any additional setup after loading the view.
-        print("Hello")
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")! // url is important, within this api there is an array of dictionaries or "hashes"
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -40,12 +37,11 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             //how to make the table view update:
             self.tableView.reloadData() // this will call the functions (tableviews) below again 20 times after the screen loads and populate the screen with titles movies/data we want.
             
-            print(dataDictionary)
+            //print(dataDictionary)
 
            }
         }
         task.resume()
-
     }
     
     //functions can be in any order
@@ -73,8 +69,22 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
-    // TODO: Get the array of movies
-    // TODO: Store the movies in a property to use elsewhere
-    // TODO: Reload your table view data
-    // ALL TASKS COMPLETE^
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) { // this opens up a new details screen. opens new page each time user clicks on movie and opens to movie detail page.
+        print("Loading up the details screen")
+        //Find the selected movie
+        
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row] //array
+        
+        //Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController // "as!" <--- "cast it"
+        detailsViewController.movie = movie
+        
+        
+        tableView.deselectRow(at: indexPath, animated: true) // de-highlights/de-selects selection after you select a movie
+        
+        
+    }
 }
