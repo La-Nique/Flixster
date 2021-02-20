@@ -21,7 +21,6 @@ class MovieDetailsViewController: UIViewController {
         super.viewDidLoad()
         // tableView.isScrollEnabled = true // forces scroll
     
-        // Do any additional setup after loading the view.
         // print(movie["title"]) // this will print out the title of the movie once you click on the movie itself
     
         titleLabel.text = movie["title"] as? String
@@ -29,8 +28,7 @@ class MovieDetailsViewController: UIViewController {
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
         
-        // poster image:
-        // cope/paste from MoviesViewController file
+        // poster image:         // copy/paste from MoviesViewController file
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
