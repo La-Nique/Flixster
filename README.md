@@ -1,42 +1,29 @@
-# Flix / Flixster
-# Professional iOS Professional via CodePath
-API fetching mobile application! Similar to IMDb, Rotten Tomatoes, Metacritic, etc
+# Flixster
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+###### Flixster is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
----
-## Flix Part 2
+## Part II
 
 ### User Stories
 
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
-
-#### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+#### Implemented functionality:
+- [x] User can tap a cell to see more details about a particular movie.
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 ### App Walkthrough GIF
 
 <img src="https://media.giphy.com/media/jk4ZgOyUTxiSWwUVt3/giphy.gif" width=250><br>
 
-### Notes
-Successfully completed all requirements for Part 2
-
-
-## Flix Part 1
+## Part I
 
 ### User Stories
 
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
-
-#### BONUS
-- [x] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device.
+#### Implemented functionality:
+- [x] User sees an app icon on the home screen and a styled launch screen.
+- [x] User can view and scroll through a list of movies now playing in theaters.
+- [x] User can view the movie poster image for each movie.
+- [x] User can view the app on various device sizes and orientations.
+- [x] Run your app on a real device.
 
 ### App Walkthrough GIF
 
@@ -52,7 +39,7 @@ Successfully completed all requirements for Part 2
 
 ### Notes
 
-I successfully completed all tasks for Part 1, as well as all bonus tasks. The fun part was the few difficulties I've encountered while programming this part of the project. 
+I successfully completed all required tasks as well as all bonus tasks. The fun part was the few difficulties I've encountered while programming this part of the project. 
 <br>
 <br><br>
 One of the challenges I faced was when I pulled from Github on Xcode and my entire code was wiped out, but I was able to figure out how to restore my code. Another challenge I faced was when I attempted to install CocoaPod, eventually, found out I had to use brew and manipulate some paths to successfully install the dependency manager. The other challenges I encountered were in the bonus tasks...
